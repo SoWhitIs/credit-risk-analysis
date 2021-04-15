@@ -60,7 +60,7 @@ Each of the six models tested and evaluated resulted in a low precision and high
 
 Nonetheless, despite these findings one model “outperformed” better that rest; that model being Easy Ensemble AdaBoost Classifier, with a high balanced accuracy score of 93% and precision and recall of 9% and 92%, respectively!
 
-In looking at its full [classification report](images/ensemble_easy_ensemble_adaboost_classifier.png), it would be worth to take note of the F1 score of this model with regards to the high-risk class, in additional to precision and sensitivity outputs, a prominent score of 19 %. 
+In looking at its full [classification report](images/ensemble_easy_ensemble_adaboost_classifier.png), it would be worth to take note of the F1 score of this model with regards to the high-risk class, in additional to precision and sensitivity outputs, a prominent score of 16 %. 
 
 <p align="center"> <b><i>Easy Ensemble AdaBoost Classifier</b></i> 
  </p>
