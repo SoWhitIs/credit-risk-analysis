@@ -59,6 +59,7 @@ The below chart showcases the balanced accuracy score, precision, and recall(sen
 Each of the six models tested and evaluated resulted in a low precision and high sensitivity performance. Meaning, although, the recall of each model in flagging high-risk illustrated a relatively high percentage (above 50%) the precision of each model remained comparatively and significantly low, reaching no more than 10%, collectively. 
 
 Nonetheless, despite these findings one model “outperformed” better that rest; that model being Easy Ensemble AdaBoost Classifier, with a high balanced accuracy score of 93% and precision and recall of 9% and 92%, respectively!
+
 In looking at its full [classification report](images/ensemble_easy_ensemble_adaboost_classifier.png), it would be worth to take note of the F1 score of this model with regards to the high-risk class, in additional to precision and sensitivity outputs, a prominent score of 19 %. 
 
 <p align="center"> <b><i>Easy Ensemble AdaBoost Classifier</b></i> 
@@ -67,7 +68,7 @@ In looking at its full [classification report](images/ensemble_easy_ensemble_ada
  <img align="center" src="images/ee_adaboost_classifier.png">
  </p>
 
-Because there is quite a bit of an imbalance between precision and recall the F1 score will be expectantly low.(Keeping mind, the closer to the value of 1, or 1 %, the more favorable.) However, the model should not be discredited as it does avail enough insight in uncovering high-credit risk and how to proceed with improving existing and creating future product/service offerings.    
+Because there is quite a bit of an imbalance between precision and recall the F1 score will be expectantly,low.(Keeping mind, the closer to the value of 1, or 1 %, the more favorable.) However, the model should not be discredited as it does avail enough insight in uncovering high-credit risk and how to proceed with improving existing and creating future product/service offerings.    
 
 #### Author 
 
