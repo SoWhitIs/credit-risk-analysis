@@ -27,6 +27,33 @@ The below chart showcases the balanced accuracy score, precision, and recall(sen
 | Precision| 0.01 |  0.01 | 0.01      | 0.01| 0.03       | 0.09|
 | Recall| 0.69 | 0.63      | 0.69      | 0.72      | 0.70      | 0.92| 
 
+#
+**What _are_ the numbers saying?**
+
+* **Naïve Random Oversampling** 
+
+    Model produced a balance accuracy score of **0.65** or **65 %**, while precision of 0.01 suggests only **1 %** of high-risk loans were detected.  However, of that 1% detected there is a 69% recall(sensitivity) rate of _actual_ high risk applications that were flagged. 
+
+*	**SMOTE Oversampling**
+
+    Model scored slightly better with a given balance accuracy score of **66 %**, however, remained relatively low on high-risk detection with a precision rate of **1 %** and a recall rate **63 %** of high-risk cases flagged. 
+
+*	**ClusterCentriods (Undersampling)**
+
+    Model scored the lowest balanced accuracy score of **54 %** but remained consistent with previous models of a precision rate of **1 %** in detecting high-risk loans and recall of **69 %** of _actual_ high risk loans flagged. 
+
+*	**SMOOTEEN**
+
+    Model balanced accuracy score is **64%**, with a low precision rate of **1%** and a slighter higher recall of ** 72 %** of _actual_ high risk loan flagged.
+
+*	**Ensemble Learners: Random Forest Classifier**
+
+    Model ranked in a balanced accuracy score of 78%, with a notable jump in precision at **3 %**, coupled with a recall of **70 %** of _actual_ high risk loans flagged. 
+
+* **Ensemble Learners: Easy Ensemble AdaBoost Classifier**
+
+  Model significantly produced higher results than previous, with a balanced accuracy score of ** 93 %**, accompanied with **9 %** precision and **92 %** recall. 
+
 ## Summary
 Each of the six models tested and evaluated resulted in a low precision and high sensitivity performance. Meaning, although, the recall of each model in flagging high-risk illustrated a relatively high percentage (above 50%) the precision of each model remained comparatively and significantly low, reaching no more than 10%, collectively. 
 
