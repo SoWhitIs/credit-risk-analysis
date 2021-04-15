@@ -1,4 +1,4 @@
-# _You're APPROVED!_ || Fast Lending Analysis
+# _You're APPROVED!_ || Fast Lending, Credit Risk Analysis
 
 ## Overview of Study
 
@@ -16,17 +16,30 @@ To accomplish this task, a study of a 2019 credit dataset from peer-to-peer lend
 
 
 ## Results
-The following algorithms: *Naïve Random Oversampling (RandomOverSampler)* , _SMOTE Oversampling_ ,  _Undersampling with ClusterCentroids_, _SMOTEEN (combination of over and undersampling)_, and _Ensemble Learners: Easy Ensemble Classifier and Random Forest Classifier_ were used to predict high credit risk. 
+The following algorithms: *Naïve Random Oversampling (RandomOverSampler)*, _SMOTE Oversampling_,  _Undersampling with ClusterCentroids_, _SMOTEEN (combination of over and undersampling)_, and _Ensemble Learners:  Random Forest Classifier and  Easy Ensemble AdaBoost Classifier_ were trained and evaluated to predict high credit risk. 
 
-The below chart showcases the  balanced accruary score, precision, and  recall(sensitivity) of the former models tested. The visual acoompanient, full classification report can be viewed by clicking through each model's title column. 
+The below chart showcases the balanced accuracy score, precision, and recall(sensitivity) of the former models tested. Visuals, and/or full classification reports can be viewed by clicking through each model's title column.
 
-| |[Naive Random Oversampling](images/naive_random_sampling.png) | [SMOTE Oversampling](images/smote_oversampling.png) |  [ClusterCentroids (Undersampling)](images/clustercentriod_undersampling.png) | [SMOTEEN](images/smoteen_over_undersampling.png) |[Random Forest Classifier (Ensemble Learners)](images/ensemble_random_forest_classifier.png) |[Easy Ensemble Classifier (Ensemble Learners)](images/ensemble_easy_ensemble_adaboost_classifier.png)
+
+| |[Naive Random Oversampling](images/naive_random_sampling.png) | [SMOTE Oversampling](images/smote_oversampling.png) |  [ClusterCentroids (Undersampling)](images/clustercentriod_undersampling.png) | [SMOTEEN](images/smoteen_over_undersampling.png) |[Random Forest Classifier (Ensemble Learners)](images/ensemble_random_forest_classifier.png) |[Easy Ensemble AdaBoost Classifier  (Ensemble Learners)](images/ensemble_easy_ensemble_adaboost_classifier.png)
 | --------------- | --------------- | ------------ |-------------|--------|----------|------------|
 |Balanced Accuracy Score | 0.6503524738582371| 0.6621602612787003 | 0.5442661782548694 | 0.644711676499736| 0.7885466545953005 | 0.9316600714093861|
-| Precision | 0.01 |  0.01 | 0.01      | 0.01| 0.01      | 0.09|
+| Precision| 0.01 |  0.01 | 0.01      | 0.01| 0.03       | 0.09|
 | Recall| 0.69 | 0.63      | 0.69      | 0.72      | 0.70      | 0.92| 
 
 ## Summary
+Each of the six models tested and evaluated resulted in a low precision and high sensitivity performance. Meaning, although, the recall of each model in flagging high-risk illustrated a relatively high percentage (above 50%) the precision of each model remained comparatively and significantly low, reaching no more than 10%, collectively. 
+
+Nonetheless, despite these findings one model “outperformed” better that rest; that model being Easy Ensemble AdaBoost Classifier, with a high balanced accuracy score of 93% and precision and recall of 9% and 92%, respectively!
+In looking at its full [classification report](images/ensemble_easy_ensemble_adaboost_classifier.png), it would be worth to take note of the model's F1 score of this model with regards to the high-risk class, in additional to precision and sensitivity outputs, a prominent score of 19 %. 
+
+<p align="center"> <b><i>Easy Ensemble AdaBoost Classifier</b></i> 
+ </p>
+<p align="center">
+ <img align="center" src="images/ee_adaboost_classifier.png">
+ </p>
+
+Because there is quite a bit of an imbalance between precision and recall the F1 score will be expectantly low.(Keeping mind, the closer to the value of 1, or 1 %, the more favorable.) However, the model should not be discredited as it does avail enough insight in uncovering high-credit risk and how to proceed with improving existing and creating future product/service offerings.    
 
 #### Author 
 
@@ -34,30 +47,7 @@ _Whitney D. Gardner_
 
 
 
-[Random Forest Classifier (Ensemble Learners)]()
+
+        
 
 
-#             
-<p align="center"> <b><i>Linear Regression Model Results</b></i> 
- </p>
-<p align="center">
- <img align="center" src="images/summary_p-value_r_squared_value_D1.png">
- </p>
-
-## Summary Statistics on Suspension
-. 
-
-<p align="center"> <i><b>place holder</b></i>
- </p>
-<p align="center">
- <img align="center" src="images/total_summary_PSI.png">
- </p>
-
-  
-
-
-<p align="center"> <i><b>place holder)</b></i> 
- </p>
-<p align="center"> 
- <img align="center" src="images/lot_summaryPSI.png">
- </p>
