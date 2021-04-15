@@ -4,7 +4,7 @@
 
 Fast Lending, a peer-to-peer lending service company, is seeking a more efficient way to predict credit risk, primarily through Machine Learning. Additionally, on the front-end, the hope is to create and offer a better loan experience, overall, to loan applicants based on swiftness and reliability. 
 
-To accomplish this task, a study of a 2019 credit dataset from peer-to-peer lending service company, LendingClub, was analyzed in a series of models to train and evaluate various techniques on the unbalanced classes of which loans are good opposed to which poses risk. 
+To accomplish this task, a study of 2019 credit dataset from peer-to-peer lending service company, LendingClub, was analyzed in a series of models to train and evaluate various techniques on the unbalanced classes of which loans are good opposed to which poses risk. 
 
 
 ## Resources 
