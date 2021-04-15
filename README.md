@@ -40,7 +40,7 @@ The below chart showcases the balanced accuracy score, precision, and recall(sen
 
 *	**ClusterCentriods (Undersampling)**
 
-    Model scored the lowest balanced accuracy score of **54 %** but remained consistent with previous models of a precision rate of **1 %** in detecting high-risk loans and recall of **69 %** of _actual_ high risk loans flagged. 
+    Model scored the lowest balanced accuracy score of **54 %** but, remained consistent with previous models of a precision rate of **1 %** in detecting high-risk loans and recall of **69 %** of _actual_ high risk loans flagged. 
 
 *	**SMOOTEEN**
 
