@@ -44,17 +44,18 @@ The below chart showcases the balanced accuracy score, precision, and recall(sen
 
 *	**SMOOTEEN**
 
-    Model balanced accuracy score is **64%**, with a low precision rate of **1%** and a slighter higher recall of ** 72 %** of _actual_ high risk loan flagged.
+    Model balanced accuracy score is **64 %**, with a low precision rate of **1 %** and a slighter higher recall of **72 %** of _actual_ high risk loan flagged.
 
 *	**Ensemble Learners: Random Forest Classifier**
 
-    Model ranked in a balanced accuracy score of 78%, with a notable jump in precision at **3 %**, coupled with a recall of **70 %** of _actual_ high risk loans flagged. 
+    Model ranked in a balanced accuracy score of **78 %**, with a notable jump in precision at **3 %**, coupled with a recall of **70 %** of _actual_ high risk loans flagged. 
 
 * **Ensemble Learners: Easy Ensemble AdaBoost Classifier**
 
-  Model significantly produced higher results than previous, with a balanced accuracy score of ** 93 %**, accompanied with **9 %** precision and **92 %** recall. 
+  Model significantly produced higher results than previous, with a balanced accuracy score of **93 %**, accompanied with **9 %** precision and **92 %** recall rate of _actual_ high risk loans flagged. 
 
 ## Summary
+
 Each of the six models tested and evaluated resulted in a low precision and high sensitivity performance. Meaning, although, the recall of each model in flagging high-risk illustrated a relatively high percentage (above 50%) the precision of each model remained comparatively and significantly low, reaching no more than 10%, collectively. 
 
 Nonetheless, despite these findings one model “outperformed” better that rest; that model being Easy Ensemble AdaBoost Classifier, with a high balanced accuracy score of 93% and precision and recall of 9% and 92%, respectively!
