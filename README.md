@@ -31,7 +31,7 @@ The below chart showcases the balanced accuracy score, precision, and recall(sen
 Each of the six models tested and evaluated resulted in a low precision and high sensitivity performance. Meaning, although, the recall of each model in flagging high-risk illustrated a relatively high percentage (above 50%) the precision of each model remained comparatively and significantly low, reaching no more than 10%, collectively. 
 
 Nonetheless, despite these findings one model “outperformed” better that rest; that model being Easy Ensemble AdaBoost Classifier, with a high balanced accuracy score of 93% and precision and recall of 9% and 92%, respectively!
-In looking at its full [classification report](images/ensemble_easy_ensemble_adaboost_classifier.png), it would be worth to take note of the model's F1 score of this model with regards to the high-risk class, in additional to precision and sensitivity outputs, a prominent score of 19 %. 
+In looking at its full [classification report](images/ensemble_easy_ensemble_adaboost_classifier.png), it would be worth to take note of the F1 score of this model with regards to the high-risk class, in additional to precision and sensitivity outputs, a prominent score of 19 %. 
 
 <p align="center"> <b><i>Easy Ensemble AdaBoost Classifier</b></i> 
  </p>
