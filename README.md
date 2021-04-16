@@ -69,7 +69,9 @@ In looking at its full [classification report](images/ensemble_easy_ensemble_ada
  </p>
 
 Because there is quite a bit of an imbalance between precision and recall the F1 score will be expectantly,low.(Keeping mind, the closer to the value of 1, or 100%, the more favorable.) However, the model should not be discredited as it does avail enough insight in uncovering high-credit risk and how to proceed with improving existing and creating future product/service offerings.    
-#
+
+---
+
 #### Author 
 
 _Whitney D. Gardner_
